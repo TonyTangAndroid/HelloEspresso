@@ -90,8 +90,8 @@ public class MainActivityTest {
   @Test
   public void scrollToCertainItem_checkItsText() {
     onView(withId(R.id.recycler_view))
-        .perform(RecyclerViewActions.actionOnItemAtPosition(10, click()));
-    onView(withText("Uruguay")).check(matches(isDisplayed()));
+        .perform(RecyclerViewActions.actionOnItemAtPosition(119, click()));
+    onView(withText("9:Colombia")).check(matches(isDisplayed()));
   }
 
 }
